@@ -36,7 +36,7 @@ class _LoginPageState extends State<LoginPage> {
           Icons.person,
           color: Colors.white,
         ),
-        hintText: 'Username',
+        hintText: 'Ulanyjy ady',
         contentPadding: EdgeInsets.fromLTRB(0.0, 20.0, 20.0, 25.0),
         border: OutlineInputBorder(borderRadius: BorderRadius.circular(30.0)),
       ),
