@@ -52,8 +52,7 @@ class ThirdScreen extends StatelessWidget {
               ),
               Container(
                 margin: EdgeInsets.fromLTRB(0, 100, 0, 0),
-                child: FlatButton(
-                  color: Colors.indigo[500],
+                child: TextButton(
                   onPressed: () {
                     Navigator.pushNamed(context, '/second');
                   },

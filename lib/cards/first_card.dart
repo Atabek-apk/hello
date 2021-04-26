@@ -55,8 +55,7 @@ class Card1 extends StatelessWidget {
                 children: [
                   Container(
                     margin: EdgeInsets.fromLTRB(140, 100, 0, 190),
-                    child: FlatButton(
-                      color: Colors.indigo[500],
+                    child: TextButton(
                       onPressed: () {
                         Navigator.popAndPushNamed(context, '/second');
                       },

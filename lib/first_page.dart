@@ -62,14 +62,11 @@ class _LoginPageState extends State<LoginPage> {
       ),
     );
 
-    final btnLogin = FlatButton(
-      height: 60,
-      color: Colors.indigo[500],
+    final btnLogin = TextButton(
       child: Text(
         'T A S S Y K L A',
         style: TextStyle(color: Colors.white),
       ),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(90.0)),
       onPressed: () {
         if (usernameController != null &&
             usernameController.text == "a" &&
